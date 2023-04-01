@@ -9,7 +9,7 @@ trigger:
 jobs:
 - job: Linux
   pool:
-    vmImage: 'Ubuntu 16.04'
+    vmImage: '22.04.2'
   steps:
   - task: DotNetCoreInstaller@0
     inputs:
